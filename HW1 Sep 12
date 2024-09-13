@@ -1,7 +1,9 @@
 https://chatgpt.com/share/66e3639f-88a8-8009-9049-290239286a0d
+https://github.com/jyenl22/Jenny-Lee/blob/5d227f0ddfa3f22cb6b376ed2364630fbdd94925/HW1%20Python.pdf
 
 7. (1) Certain rows in a dataset containing client orders lack values for fields like "Order Date" and "Customer Age." To eliminate only the incomplete rows and preserve the valuable information in every column, utilize df.dropna().
 (2) Certain rows in a dataset of customer orders lack values for the fields "Order Date" and "Customer Age." To eliminate missing rows while maintaining all columns, use df.dropna().
 (3) It's crucial to apply del df['col'] first since it helps avoid needless data loss. To minimize the loss of valuable data, df.dropna() eliminates extraneous columns first and then drops rows based only on the important columns that remain.
 (4) 1. Delete Column: By deleting the "Address" column first, more rows are preserved because it has a large number of missing data and is not essential to the analysis.
 2. Drop Rows: This guarantees that the dataset is clean and ready for analysis without losing any significant data by dropping rows that have missing values in the remaining columns.
+
